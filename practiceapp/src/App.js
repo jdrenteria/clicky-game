@@ -9,6 +9,12 @@ class App extends Component {
     alertMessage: ""
   }
 
-  
+  handlePicked = event => {
+    const name = event.target.attributes.getNameItem ("name"). value;
+    this.shuffleCharacters()
+    this.checkGuess(name, this.updateTopScore)
+  }
+
+
 }
 export default App;
