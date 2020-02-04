@@ -1,4 +1,12 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import GridMDC from "./components/GridMDC";
+import PaperMDC from "./components/PaperMDC";
+import CharCard from "./components/CharCard";
+import Score from "./components/Score";
+import Alert from "./components/Alert";
+import NavBar from "./components/NavBar";
+import BottomNavMDC from "./components/BottomNavMDC";
+import characters from "./characters.json";
 
 class App extends Component {
 
@@ -16,9 +24,13 @@ class App extends Component {
   }
 
   shuffleCharacters = () => {
-    var j,x,i;
-    for (i = a.length -1; i>0; i--) {
-      j = Math.floor(Math.random() * (i+ 1));
+    this.setState(this.state.characters = this.shuffleArray(this.state.characters))
+  }
+
+  shuffleArray = (a) => {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
       x = a[i];
       a[i] = a[j];
       a[j] = x;
@@ -102,6 +114,9 @@ render() {
           </GridMDC>
         ))}
       </GridMDC>
+      <BottomNavMDC style={{ background: "#313133", marginTop: "17.5px", paddingTop: "15px", borderTop: "2.5px solid slategray" }}>
+          <a href="https://github.com/jdrenteria/clicky-game" target="_blank" className="link" alt="clicky-game-github-link"><i className="fa fa-github fa-2x"></i></a>
+        </BottomNavMDC>
 
     </div>
   )
