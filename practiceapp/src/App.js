@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   handlePicked = event => {
-    const name = event.target.attributes.getNameItem ("name"). value;
+    const name = event.target.attributes.getNamedItem ("name").value;
     this.shuffleCharacters()
     this.checkGuess(name, this.updateTopScore)
   }
@@ -41,7 +41,7 @@ class App extends Component {
   checkGuess = (name,cb) => {
   const newState = { ...this.state };
   if (newState.pickedChars.includes(name)) {
-    newState.alertMessage = 'You Already Picked "${name.toUpperCase()}"!'
+    newState.alertMessage = `YOU ALREADY PICKED "${name.toUpperCase()}"!`
     newState.pickedChars = []
     this.setState(this.state = newState)
   }else{

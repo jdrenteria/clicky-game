@@ -2,62 +2,62 @@
     {
         "id": 1,
         "name": "bowser",
-        "image":""
+        "image":"../imgs/bowser.jpg"
     },
     {
         "id": 2,
         "name": "luigi",
-        "image": ""
+        "image": "../imgs/luigi.png"
     },
     {
         "id": 3,
         "name": "samus",
-        "image": ""
+        "image": "../imgs/samus.jpg"
     },
     {
         "id": 4,
         "name": "peach",
-        "image": ""
+        "image": "../imgs/peach.jpg"
     },
     {
         "id": 5,
         "name": "link",
-        "image": ""
+        "image": "../imgs/link.jpg"
     },
     {
         "id": 6,
         "name": "mario",
-        "image": ""
+        "image": "../imgs/mario.jpg"
     },
     {
         "id": 7,
         "name": "fox",
-        "image": ""
+        "image": "../imgs/fox.jpg"
     },
     {
         "id": 8,
         "name": "captain-falcon",
-        "image": ""
+        "image": "../imgs/captain-falcon.jpg"
     },
     {
         "id": 9,
         "name": "yoshi",
-        "image": ""
+        "image": "../imgs/yoshi.jpg"
     },
     {
         "id": 10,
         "name": "kirby",
-        "image": ""
+        "image": "../imgs/kirby.jpg"
     },
     {
         "id": 11,
         "name": "pit",
-        "image": ""
+        "image": "../imgs/pit.jpg"
     },
     {
         "id": 12,
         "name": "donkey-kong",
-        "image": ""
+        "image": "../imgs/donkey-kong.jpg"
     }
 
 ]
