@@ -1,3 +1,4 @@
+/* eslint-disable react/no-direct-mutation-state */
 import React, { Component } from 'react';
 import GridMDC from "./components/GridMDC";
 import PaperMDC from "./components/PaperMDC";
@@ -24,6 +25,7 @@ class App extends Component {
   }
 
   shuffleCharacters = () => {
+    // eslint-disable-next-line react/no-direct-mutation-state
     this.setState(this.state.characters = this.shuffleArray(this.state.characters))
   }
 
