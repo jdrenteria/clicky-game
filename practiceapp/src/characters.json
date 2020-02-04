@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "bowser",
+        "image":""
+    },
+    {
+        "id": 2,
+        "name": "luigi",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "name": "samus",
+        "image": ""
+    },
+    {
+        "id": 4,
+        "name": "peach",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "name": "link",
+        "image": ""
+    },
+    {
+        "id": 6,
+        "name": "mario",
+        "image": ""
+    },
+    {
+        "id": 7,
+        "name": "fox",
+        "image": ""
+    },
+    {
+        "id": 8,
+        "name": "captain-falcon",
+        "image": ""
+    },
+    {
+        "id": 9,
+        "name": "yoshi",
+        "image": ""
+    },
+    {
+        "id": 10,
+        "name": "kirby",
+        "image": ""
+    },
+    {
+        "id": 11,
+        "name": "pit",
+        "image": ""
+    },
+    {
+        "id": 12,
+        "name": "donkey-kong",
+        "image": ""
+    }
+
+]
