@@ -6,7 +6,7 @@ const Alert = props => (
         {props.message ? (
             <p>{props.message}</p>
         ) : (
-                <p className="default-msg black">Click an image to begin!</p>
+                <p className="default-msg red">Click an image to begin!</p>
             )}
     </div>
 )
